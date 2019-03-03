@@ -1,0 +1,9 @@
+为了能用install package，进行如下配置：
+路径：首选项-->package Settings --> Package Control -->Settings User。添加如下：
+"bootstrapped": true,
+"channels":
+[
+  "http://127.0.0.1/document/channel_v3.json"
+]
+
+其中这条路径为本机配置的服务器路径
